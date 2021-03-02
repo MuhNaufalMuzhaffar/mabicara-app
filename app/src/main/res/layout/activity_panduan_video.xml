@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PanduanVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoViewUtama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            tools:text="Ini adalah judul" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorGaris"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/buttonsimulasi"
+            android:onClick="video1"
+            android:text="Video 1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonsimulasi"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="video2"
+            android:text="Video 2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonsimulasi"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="video3"
+            android:text="Video 3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonsimulasi"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="video4"
+            android:text="Video 4" />
+
+    </LinearLayout>
+
+</LinearLayout>

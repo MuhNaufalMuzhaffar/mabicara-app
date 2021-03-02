@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="270dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_cardview"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/penulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonsimulasi"
+            android:text="PENULISAN :"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/penulis"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@null" />
+
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Text1"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:text="@null" />
+
+        <TextView
+            android:id="@+id/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Text2"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@null" />
+        <TextView
+            android:id="@+id/Text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Text3"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@null" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".QuisInggrisActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/buttonsimulasi"
+        android:layout_height="250dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kuis Sederhana"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:id="@+id/kuis"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/pilihan"
+        android:outlineAmbientShadowColor="@color/colorGrey"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilihan A"
+            android:textColor="@color/colorGrey"
+            android:id="@+id/pilihanA"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGrey"
+            android:text="Pilihan B"
+            android:id="@+id/pilihanB"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGrey"
+            android:text="Pilihan C"
+            android:id="@+id/pilihanC"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGrey"
+            android:text="Pilihan D"
+            android:id="@+id/pilihanD"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/buttonsimulasi"
+        android:onClick="next"
+        android:text="Next"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteX="139dp" />
+
+
+</LinearLayout>

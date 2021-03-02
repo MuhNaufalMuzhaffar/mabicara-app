@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_indonesiajepang">
+
+    <fragment
+        android:id="@+id/nav_indonesiajepang"
+        android:name="com.example.appmabbicaracommunity.indonesiajepang.IndonesiaJepangFragment"
+        android:label="@string/menu_IndonesiaJepang"
+        tools:layout="@layout/fragment_indonesiajepang" />
+
+    <fragment
+        android:id="@+id/nav_jepangindonesia"
+        android:name="com.example.appmabbicaracommunity.jepangindonesia.JepangIndonesiaFragment"
+        android:label="@string/menu_JepangIndonesia"
+        tools:layout="@layout/fragment_jepangindonesia" />
+
+    <fragment
+        android:id="@+id/nav_inggrisjepang"
+        android:name="com.example.appmabbicaracommunity.inggrisjepang.InggrisJepangFragment"
+        android:label="@string/menu_InggrisJepang"
+        tools:layout="@layout/fragment_inggrisjepang" />
+
+
+    <fragment
+        android:id="@+id/nav_jepanginggris"
+        android:name="com.example.appmabbicaracommunity.jepanginggris.JepangInggrisFragment"
+        android:label="@string/menu_JepangInggris"
+        tools:layout="@layout/fragment_jepanginggris" />
+
+    <fragment
+        android:id="@+id/nav_indonesiainggris"
+        android:name="com.example.appmabbicaracommunity.indonesiainggris.IndonesiaInggrisFragment"
+        android:label="@string/menu_IndonesiaInggris"
+        tools:layout="@layout/fragment_indonesiainggris" />
+
+
+    <fragment
+        android:id="@+id/nav_inggrisindonesia"
+        android:name="com.example.appmabbicaracommunity.inggrisindonesia.InggrisIndonesiaFragment"
+        android:label="@string/menu_InggrisIndonesia"
+        tools:layout="@layout/fragment_inggrisindonesia" />
+
+    <fragment
+        android:id="@+id/nav_indonesia"
+        android:name="com.example.appmabbicaracommunity.kebudayaanindonesia.KebudayaanIndonesiaFragment"
+        android:label="@string/menu_Indonesia"
+        tools:layout="@layout/fragment_kebudayaanindonesia" />
+
+    <fragment
+        android:id="@+id/nav_inggris"
+        android:name="com.example.appmabbicaracommunity.kebudayaaninggris.KebudayaanInggrisFragment"
+        android:label="@string/menu_Inggris"
+        tools:layout="@layout/fragment_kebudayaaninggris" />
+
+    <fragment
+        android:id="@+id/nav_jepang"
+        android:name="com.example.appmabbicaracommunity.kebudayaanjepang.KebudayaanJepangFragment"
+        android:label="@string/menu_Jepang"
+        tools:layout="@layout/fragment_kebudayaanjepang" />
+
+    <fragment
+        android:id="@+id/nav_simulasijepang"
+        android:name="com.example.appmabbicaracommunity.simulasijepang.SimulasiJepangFragment"
+        android:label="@string/menu_Simulasi_Jepang"
+        tools:layout="@layout/fragment_simulasijepang" />
+
+    <fragment
+        android:id="@+id/nav_simulasiinggris"
+        android:name="com.example.appmabbicaracommunity.simulasiinggris.SimulasiInggrisFragment"
+        android:label="@string/menu_Simulasi_Inggris"
+        tools:layout="@layout/fragment_simulasiinggris" />
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mabbicara Community</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Info Aplikasi</string>
+
+    <string name="menu_IndonesiaJepang">Indonesia-Jepang</string>
+    <string name="menu_JepangIndonesia">Jepang-Indonesia</string>
+    <string name="menu_InggrisJepang">Inggris-Jepang</string>
+    <string name="menu_JepangInggris">Jepang-Inggris</string>
+    <string name="menu_IndonesiaInggris">Indonesia-Inggris</string>
+    <string name="menu_InggrisIndonesia">Inggris-Indonesia</string>
+    <string name="menu_Inggris">Kebudayaan Inggris</string>
+    <string name="menu_Indonesia">Kebudayaan Indonesia</string>
+    <string name="menu_Jepang">Kebudayaan Jepang</string>
+    <string name="menu_Simulasi_Jepang">Simulasi Jepang</string>
+    <string name="menu_Simulasi_Inggris">Simulasi Inggris</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

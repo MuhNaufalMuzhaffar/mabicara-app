@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_indonesiajepang"
+            android:title="@string/menu_IndonesiaJepang" />
+        <item
+            android:id="@+id/nav_jepangindonesia"
+            android:title="@string/menu_JepangIndonesia" />
+        <item
+            android:id="@+id/nav_inggrisjepang"
+            android:title="@string/menu_InggrisJepang" />
+
+        <item
+            android:id="@+id/nav_jepanginggris"
+            android:title="@string/menu_JepangInggris" />
+
+        <item
+            android:id="@+id/nav_indonesiainggris"
+            android:title="@string/menu_IndonesiaInggris" />
+
+        <item
+            android:id="@+id/nav_inggrisindonesia"
+            android:title="@string/menu_InggrisIndonesia" />
+
+        <item
+            android:id="@+id/nav_indonesia"
+            android:title="@string/menu_Indonesia" />
+
+        <item
+            android:id="@+id/nav_jepang"
+            android:title="@string/menu_Jepang" />
+
+        <item
+            android:id="@+id/nav_inggris"
+            android:title="@string/menu_Inggris" />
+
+
+        <item
+            android:id="@+id/nav_simulasijepang"
+            android:title="@string/menu_Simulasi_Jepang" />
+
+        <item
+            android:id="@+id/nav_simulasiinggris"
+            android:title="@string/menu_Simulasi_Inggris" />
+    </group>
+
+
+</menu>

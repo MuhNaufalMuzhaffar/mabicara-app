@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116570411059",
+    "firebase_url": "https://app-mabbicara-community-826f5-default-rtdb.firebaseio.com",
+    "project_id": "app-mabbicara-community-826f5",
+    "storage_bucket": "app-mabbicara-community-826f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116570411059:android:06c7c2736b3b47e4021346",
+        "android_client_info": {
+          "package_name": "com.example.appmabbicaracommunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116570411059-qu8d2g874qqconf3crlmuvghq5f1j4mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appmabbicaracommunity",
+            "certificate_hash": "ed3024ef2c925755713ceea76b717eabd2ee7c1e"
+          }
+        },
+        {
+          "client_id": "116570411059-hrme32l9gd7km8pvm9qck6cq752ng7bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU3hFtmHO9rupcJU-psbE6D2jh-bkm3Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116570411059-hrme32l9gd7km8pvm9qck6cq752ng7bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

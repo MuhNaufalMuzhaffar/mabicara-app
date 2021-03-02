@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".simulasijepang.SimulasiJepangFragment">
+
+
+    <Button
+        android:id="@+id/btn_quis"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="Quis クイズ"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_hiragana"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="HIRAGANA"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quis"
+        app:layout_constraintVertical_bias="0.072"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_katakana"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="KATAKANA"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hiragana"
+        app:layout_constraintVertical_bias="0.096"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btn_pengucapan"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="penulisan"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_katakana"
+        app:layout_constraintVertical_bias="0.116"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_panduanvideo"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="Panduan Video"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pengucapan"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_kalimatumum"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonsimulasi"
+        android:text="Kalimat Umum"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_panduanvideo"
+        app:layout_constraintVertical_bias="0.232"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
